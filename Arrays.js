@@ -35,3 +35,9 @@ console.log(marks2)
 
 marks2.reduce((accumulator, currentValue) => accumulator + currentValue, 0) // sums up all elements in the array
 console.log(marks2.reduce((accumulator, currentValue) => accumulator + currentValue, 0))
+
+marks2.filter((mark) => mark > 30) // filters elements greater than 30
+console.log(marks2.filter((mark) => mark > 30))
+
+marks2.map((mark) => mark * 2) // multiplies each element by 2
+console.log(marks2.map((mark) => mark * 2))
